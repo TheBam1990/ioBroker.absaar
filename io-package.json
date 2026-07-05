@@ -34,7 +34,6 @@
     ],
     "license": "MIT",
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "absaar.png",
     "enabled": true,
     "extIcon": "",
