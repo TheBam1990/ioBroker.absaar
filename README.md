@@ -121,7 +121,7 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ### Polling behavior
 
-The default poll interval is 120 seconds. This follows the behavior of the Home Assistant integration and avoids unnecessary API load. The adapter logs in on every poll cycle, matching the behavior observed in the reference integration.
+The default poll interval is 120 seconds. Keep this interval conservative to avoid unnecessary cloud API load.
 
 ### Troubleshooting
 
@@ -131,20 +131,24 @@ The default poll interval is 120 seconds. This follows the behavior of the Home 
 4. Keep the poll interval at 120 seconds or higher while testing.
 5. Enable raw JSON only temporarily, because it can create large states depending on the API response.
 
-### API reference
+### Version history
 
-The cloud API implementation is based on the public Home Assistant integration:
+#### 0.1.2
 
-https://github.com/Pewidot/absaar_inverter_ha_integration
+- Documentation cleanup for publication.
+- Added this version history.
 
-The adapter uses these endpoints:
+#### 0.1.1
 
-```text
-POST /dn/userLogin
-POST /dn/power/station/listApp
-POST /dn/power/collector/listByApp
-POST /dn/power/inverterData/inverterDatalist
-```
+- Added collector states even if detailed inverter data is not returned.
+- Added additional station metrics such as current power, monthly generation and environment counters.
+- Expanded German and English documentation.
+
+#### 0.1.0
+
+- Initial cloud polling adapter.
+- Added login, station polling, collector polling and inverter data polling.
+- Added Materialize admin configuration.
 
 ## Deutsch
 
@@ -263,7 +267,7 @@ Nicht jedes Absaar-Geraet liefert jeden Wert. Fehlende Werte werden nicht uebers
 
 ### Abfrageverhalten
 
-Das Standardintervall liegt bei 120 Sekunden. Das entspricht dem Verhalten der Home-Assistant-Integration und vermeidet unnoetig viele Cloud-Abfragen. Der Adapter meldet sich pro Abfragezyklus neu an, genauso wie es in der Referenzintegration umgesetzt ist.
+Das Standardintervall liegt bei 120 Sekunden. Das Intervall sollte bewusst konservativ bleiben, um unnoetig viele Cloud-Abfragen zu vermeiden.
 
 ### Fehlersuche
 
@@ -273,17 +277,21 @@ Das Standardintervall liegt bei 120 Sekunden. Das entspricht dem Verhalten der H
 4. Beim Testen das Poll-Intervall bei 120 Sekunden oder hoeher lassen.
 5. Rohdaten-JSON nur temporaer aktivieren, weil die States je nach API-Antwort gross werden koennen.
 
-### API-Referenz
+### Versionshistorie
 
-Die Cloud-API-Umsetzung basiert auf der oeffentlichen Home-Assistant-Integration:
+#### 0.1.2
 
-https://github.com/Pewidot/absaar_inverter_ha_integration
+- Dokumentation fuer eine moegliche Veroeffentlichung bereinigt.
+- Versionshistorie ergaenzt.
 
-Verwendete Endpunkte:
+#### 0.1.1
 
-```text
-POST /dn/userLogin
-POST /dn/power/station/listApp
-POST /dn/power/collector/listByApp
-POST /dn/power/inverterData/inverterDatalist
-```
+- Collector-Datenpunkte werden auch dann angelegt, wenn keine detaillierten Inverterdaten zurueckgegeben werden.
+- Weitere Stationswerte wie aktuelle Leistung, Monatserzeugung und Umweltzaehler ergaenzt.
+- Deutsche und englische Dokumentation erweitert.
+
+#### 0.1.0
+
+- Erste Cloud-Polling-Version.
+- Anmeldung, Stationsabfrage, Collector-Abfrage und Inverterdaten-Abfrage ergaenzt.
+- Materialize-Admin-Konfiguration ergaenzt.
