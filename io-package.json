@@ -28,45 +28,6 @@
         "pl": "Updates package metadata for ioBroker repository checks",
         "uk": "Updates package metadata for ioBroker repository checks",
         "zh-cn": "Updates package metadata for ioBroker repository checks"
-      },
-      "0.1.2": {
-        "en": "Cleans up README for publication and adds version history",
-        "de": "Bereinigt die README fuer eine moegliche Veroeffentlichung und ergaenzt eine Versionshistorie",
-        "ru": "Cleans up README for publication and adds version history",
-        "pt": "Cleans up README for publication and adds version history",
-        "nl": "Cleans up README for publication and adds version history",
-        "fr": "Cleans up README for publication and adds version history",
-        "it": "Cleans up README for publication and adds version history",
-        "es": "Cleans up README for publication and adds version history",
-        "pl": "Cleans up README for publication and adds version history",
-        "uk": "Cleans up README for publication and adds version history",
-        "zh-cn": "Cleans up README for publication and adds version history"
-      },
-      "0.1.1": {
-        "en": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "de": "Legt Collector-Datenpunkte auch dann an, wenn der Inverterdaten-Endpunkt keine Zeilen liefert, und ergaenzt weitere Stationswerte",
-        "ru": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "pt": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "nl": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "fr": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "it": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "es": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "pl": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "uk": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
-        "zh-cn": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics"
-      },
-      "0.1.0": {
-        "en": "Initial Absaar EMS cloud polling adapter",
-        "de": "Erste Version mit Absaar EMS Cloud-Polling",
-        "ru": "Initial Absaar EMS cloud polling adapter",
-        "pt": "Initial Absaar EMS cloud polling adapter",
-        "nl": "Initial Absaar EMS cloud polling adapter",
-        "fr": "Initial Absaar EMS cloud polling adapter",
-        "it": "Initial Absaar EMS cloud polling adapter",
-        "es": "Initial Absaar EMS cloud polling adapter",
-        "pl": "Initial Absaar EMS cloud polling adapter",
-        "uk": "Initial Absaar EMS cloud polling adapter",
-        "zh-cn": "Initial Absaar EMS cloud polling adapter"
       }
     },
     "titleLang": {
