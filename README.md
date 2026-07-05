@@ -133,6 +133,12 @@ The default poll interval is 120 seconds. Keep this interval conservative to avo
 
 ### Version history
 
+#### 0.1.3
+
+- Updated package metadata for ioBroker repository checks.
+- Raised the minimum Node.js requirement to Node.js 20.
+- Added repository, author, license information, tier and extended translations.
+
 #### 0.1.2
 
 - Documentation cleanup for publication.
@@ -278,6 +284,12 @@ Das Standardintervall liegt bei 120 Sekunden. Das Intervall sollte bewusst konse
 5. Rohdaten-JSON nur temporaer aktivieren, weil die States je nach API-Antwort gross werden koennen.
 
 ### Versionshistorie
+
+#### 0.1.3
+
+- Paket-Metadaten fuer ioBroker Repository-Pruefungen aktualisiert.
+- Minimale Node.js-Version auf Node.js 20 angehoben.
+- Repository, Autor, Lizenzinformationen, Tier und erweiterte Uebersetzungen ergaenzt.
 
 #### 0.1.2
 
