@@ -35,7 +35,7 @@
     "@iobroker/testing": "^5.2.2",
     "@tsconfig/node22": "^22.0.1",
     "@types/node": ">=22",
-    "eslint": "^8.57.0"
+    "eslint": "^10.6.0"
   },
   "scripts": {
     "start": "node main.js",
