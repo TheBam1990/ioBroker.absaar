@@ -3,18 +3,18 @@
     "name": "absaar",
     "version": "0.1.6",
     "news": {
-      "0.1.5": {
-        "en": "Removes unpublished version history entries from io-package news",
-        "de": "Removes unpublished version history entries from io-package news",
-        "ru": "Removes unpublished version history entries from io-package news",
-        "pt": "Removes unpublished version history entries from io-package news",
-        "nl": "Removes unpublished version history entries from io-package news",
-        "fr": "Removes unpublished version history entries from io-package news",
-        "it": "Removes unpublished version history entries from io-package news",
-        "es": "Removes unpublished version history entries from io-package news",
-        "pl": "Removes unpublished version history entries from io-package news",
-        "uk": "Removes unpublished version history entries from io-package news",
-        "zh-cn": "Removes unpublished version history entries from io-package news"
+     "0.1.6": {
+    "en": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "de": "Fügt das Auslesen von Absaar EMS Wechselrichterdaten von mini-ems.com hinzu",
+    "ru": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "pt": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "nl": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "fr": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "it": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "es": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "pl": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "uk": "Adds Absaar EMS inverter data polling from mini-ems.com",
+    "zh-cn": "Adds Absaar EMS inverter data polling from mini-ems.com"
       }
     },
     "titleLang": {
