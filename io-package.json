@@ -63,6 +63,7 @@
     "extIcon": "https://raw.githubusercontent.com/TheBam1990/ioBroker.absaar/main/admin/absaar.png",
     "readme": "https://github.com/TheBam1990/ioBroker.absaar/blob/main/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "energy",
     "tier": 3,
