@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "news": {
-      "0.1.7": {
-        "en": "Fixes the changelog entry for the current adapter version",
-        "de": "Korrigiert den Changelog-Eintrag fuer die aktuelle Adapterversion",
-        "ru": "Исправляет запись журнала изменений для текущей версии адаптера",
-        "pt": "Corrige a entrada do registro de alteracoes da versao atual do adaptador",
-        "nl": "Corrigeert het changelog-item voor de huidige adapterversie",
-        "fr": "Corrige l'entree du journal des modifications pour la version actuelle de l'adaptateur",
-        "it": "Corregge la voce del registro modifiche per la versione corrente dell'adattatore",
-        "es": "Corrige la entrada del registro de cambios para la version actual del adaptador",
-        "pl": "Poprawia wpis dziennika zmian dla aktualnej wersji adaptera",
-        "uk": "Виправляє запис журналу змін для поточної версії адаптера",
-        "zh-cn": "修正当前适配器版本的变更日志条目"
+      "0.1.8": {
+        "en": "Adds admin translations required by the ioBroker adapter checker",
+        "de": "Fuegt vom ioBroker Adapter-Checker benoetigte Admin-Uebersetzungen hinzu",
+        "ru": "Добавляет переводы admin, необходимые для проверки адаптера ioBroker",
+        "pt": "Adiciona traducoes admin exigidas pelo verificador de adaptadores ioBroker",
+        "nl": "Voegt admin-vertalingen toe die vereist zijn door de ioBroker adapterchecker",
+        "fr": "Ajoute les traductions admin requises par le verificateur d'adaptateur ioBroker",
+        "it": "Aggiunge le traduzioni admin richieste dal controllo adattatori ioBroker",
+        "es": "Anade traducciones admin requeridas por el verificador de adaptadores ioBroker",
+        "pl": "Dodaje tlumaczenia admin wymagane przez kontroler adapterow ioBroker",
+        "uk": "Додає переклади admin, потрібні для перевірки адаптера ioBroker",
+        "zh-cn": "添加 ioBroker 适配器检查器所需的管理界面翻译"
       }
     },
     "titleLang": {

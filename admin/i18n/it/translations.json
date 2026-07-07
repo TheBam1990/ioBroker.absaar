@@ -1,0 +1,8 @@
+{
+  "Adapter active": "Adapter attivo",
+  "Poll interval seconds": "Intervallo di polling in secondi",
+  "Absaar username": "Nome utente Absaar",
+  "Absaar password": "Password Absaar",
+  "API base URL": "URL base API",
+  "Store raw data as JSON": "Salva i dati grezzi come JSON"
+}

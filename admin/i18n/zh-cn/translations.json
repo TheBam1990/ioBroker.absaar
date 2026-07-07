@@ -1,0 +1,8 @@
+{
+  "Adapter active": "适配器已启用",
+  "Poll interval seconds": "轮询间隔秒数",
+  "Absaar username": "Absaar 用户名",
+  "Absaar password": "Absaar 密码",
+  "API base URL": "API 基础 URL",
+  "Store raw data as JSON": "将原始数据保存为 JSON"
+}

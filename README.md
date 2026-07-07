@@ -128,6 +128,15 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ## Changelog
 
+### 0.1.8
+
+- Added admin translations required by the ioBroker adapter checker.
+- Added a changelog archive link for older entries.
+
+### 0.1.7
+
+- Fixed changelog metadata for the published npm version.
+
 ### 0.1.6
 
 - Added GitHub Actions workflow and Dependabot configuration.
@@ -169,6 +178,8 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 - Initial cloud polling adapter.
 - Added login, station polling, collector polling and inverter data polling.
 - Added admin configuration.
+
+Older entries are archived in [CHANGELOG_OLD.md](CHANGELOG_OLD.md).
 
 ## License
 

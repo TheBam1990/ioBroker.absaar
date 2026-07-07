@@ -1,0 +1,8 @@
+{
+  "Adapter active": "Адаптер активен",
+  "Poll interval seconds": "Интервал опроса в секундах",
+  "Absaar username": "Имя пользователя Absaar",
+  "Absaar password": "Пароль Absaar",
+  "API base URL": "Базовый URL API",
+  "Store raw data as JSON": "Сохранять исходные данные как JSON"
+}
