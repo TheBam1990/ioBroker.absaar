@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "news": {
-     "0.1.6": {
-    "en": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "de": "Fügt das Auslesen von Absaar EMS Wechselrichterdaten von mini-ems.com hinzu",
-    "ru": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "pt": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "nl": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "fr": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "it": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "es": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "pl": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "uk": "Adds Absaar EMS inverter data polling from mini-ems.com",
-    "zh-cn": "Adds Absaar EMS inverter data polling from mini-ems.com"
+      "0.1.7": {
+        "en": "Fixes the changelog entry for the current adapter version",
+        "de": "Korrigiert den Changelog-Eintrag fuer die aktuelle Adapterversion",
+        "ru": "Исправляет запись журнала изменений для текущей версии адаптера",
+        "pt": "Corrige a entrada do registro de alteracoes da versao atual do adaptador",
+        "nl": "Corrigeert het changelog-item voor de huidige adapterversie",
+        "fr": "Corrige l'entree du journal des modifications pour la version actuelle de l'adaptateur",
+        "it": "Corregge la voce del registro modifiche per la versione corrente dell'adattatore",
+        "es": "Corrige la entrada del registro de cambios para la version actual del adaptador",
+        "pl": "Poprawia wpis dziennika zmian dla aktualnej wersji adaptera",
+        "uk": "Виправляє запис журналу змін для поточної версії адаптера",
+        "zh-cn": "修正当前适配器版本的变更日志条目"
       }
     },
     "titleLang": {
