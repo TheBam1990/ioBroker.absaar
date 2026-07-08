@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "news": {
+      "0.1.10": {
+        "en": "Uses the standard ioBroker testing actions and adds package and integration test scripts",
+        "de": "Verwendet die Standard-ioBroker-Test-Actions und ergaenzt Paket- und Integrationstest-Skripte",
+        "ru": "Использует стандартные ioBroker testing actions и добавляет скрипты package и integration tests",
+        "pt": "Usa as actions de teste padrao do ioBroker e adiciona scripts de package e integration tests",
+        "nl": "Gebruikt de standaard ioBroker testing actions en voegt package- en integration-testscripts toe",
+        "fr": "Utilise les actions de test ioBroker standard et ajoute les scripts package et integration tests",
+        "it": "Usa le action di test standard di ioBroker e aggiunge script per package e integration tests",
+        "es": "Usa las acciones de prueba estandar de ioBroker y agrega scripts de package e integration tests",
+        "pl": "Uzywa standardowych akcji testowych ioBroker i dodaje skrypty testow package oraz integration",
+        "uk": "Використовує стандартні ioBroker testing actions і додає скрипти package та integration tests",
+        "zh-cn": "使用标准 ioBroker testing actions 并添加 package 和 integration 测试脚本"
+      },
       "0.1.9": {
         "en": "Adds trusted publishing workflow configuration for signed npm releases",
         "de": "Fuegt die Trusted-Publishing-Workflow-Konfiguration fuer signierte npm-Releases hinzu",

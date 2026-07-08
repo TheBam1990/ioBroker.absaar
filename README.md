@@ -128,6 +128,11 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ## Changelog
 
+### 0.1.10
+
+- Switched the CI workflow to the standard ioBroker testing actions.
+- Added package and integration test scripts expected by the ioBroker checker.
+
 ### 0.1.9
 
 - Added trusted publishing workflow configuration for signed npm releases.
