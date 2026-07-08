@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "news": {
+      "0.1.12": {
+        "en": "Adds the release script configuration required by the repository checker",
+        "de": "Fuegt die vom Repository-Checker benoetigte Release-Script-Konfiguration hinzu",
+        "ru": "Добавляет конфигурацию release script, требуемую repository checker",
+        "pt": "Adiciona a configuracao do release script exigida pelo repository checker",
+        "nl": "Voegt de release-scriptconfiguratie toe die de repository checker vereist",
+        "fr": "Ajoute la configuration du release script requise par le repository checker",
+        "it": "Aggiunge la configurazione del release script richiesta dal repository checker",
+        "es": "Agrega la configuracion del release script requerida por el repository checker",
+        "pl": "Dodaje konfiguracje release script wymagana przez repository checker",
+        "uk": "Додає конфігурацію release script, потрібну repository checker",
+        "zh-cn": "添加 repository checker 所需的 release script 配置"
+      },
       "0.1.11": {
         "en": "Adds ioBroker development tooling and switches admin translations to the short i18n file format",
         "de": "Fuegt ioBroker-Entwicklungswerkzeuge hinzu und stellt Admin-Uebersetzungen auf das kurze i18n-Dateiformat um",

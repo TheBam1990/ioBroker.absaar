@@ -128,6 +128,10 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ## Changelog
 
+### 0.1.12
+
+- Added the release script configuration required by the repository checker.
+
 ### 0.1.11
 
 - Added ioBroker development tooling used by common adapter maintenance workflows.
