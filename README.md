@@ -2,6 +2,8 @@
 
 ioBroker adapter for Absaar EMS inverters. The adapter reads inverter and station data from the Absaar EMS cloud API used by the Absaar EMS app.
 
+Product and manufacturer information is available on the [official Absaar Solar website](https://absaarsolar.lu/de/startseite/).
+
 The adapter does not contain private credentials, private host names, or user-specific data. Credentials are stored in protected and encrypted ioBroker native configuration fields.
 
 ## Features
@@ -20,7 +22,7 @@ The adapter does not contain private credentials, private host names, or user-sp
 ## Requirements
 
 - ioBroker js-controller `>= 6.0.11`
-- ioBroker Admin `>= 7.6.20`
+- ioBroker Admin `>= 7.8.23`
 - Node.js `>= 22`
 - An Absaar EMS account with at least one inverter or station configured in the Absaar EMS app
 - Network access from the ioBroker host to `mini-ems.com:8081`
@@ -34,7 +36,7 @@ Open the adapter instance configuration in ioBroker Admin.
 | Adapter active | Enables or disables polling. |
 | Absaar username | Username used in the Absaar EMS app. Depending on the account this may be an email address or a username. |
 | Absaar password | Password used in the Absaar EMS app. Stored as encrypted and protected native config by ioBroker. |
-| Poll interval seconds | Polling interval in seconds. Default is `120`. Keep this value conservative to avoid cloud rate limits. |
+| Poll interval seconds | Polling interval in seconds, from `30` to `86400`. Default is `120`. Keep this value conservative to avoid cloud rate limits. |
 | API base URL | Default: `https://mini-ems.com:8081`. Usually this should not be changed. |
 | Store raw data as JSON | Writes the full fetched JSON into states for troubleshooting. Disabled by default. |
 
@@ -130,6 +132,11 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 
 ### **WORK IN PROGRESS**
+
+- Added complete adapter description translations and a manufacturer link.
+- Enforced a safe polling interval range of 30 seconds to 24 hours.
+- Enabled TLS certificate verification for cloud API requests.
+- Improved state roles and avoided redundant object creation during polling.
 - (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
 
 ### 0.1.12

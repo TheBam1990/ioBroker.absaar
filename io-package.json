@@ -72,15 +72,15 @@
     "desc": {
       "en": "Reads Absaar EMS inverter data from mini-ems.com",
       "de": "Liest Absaar EMS Wechselrichterdaten von mini-ems.com",
-      "ru": "Reads Absaar EMS inverter data from mini-ems.com",
-      "pt": "Reads Absaar EMS inverter data from mini-ems.com",
-      "nl": "Reads Absaar EMS inverter data from mini-ems.com",
-      "fr": "Reads Absaar EMS inverter data from mini-ems.com",
-      "it": "Reads Absaar EMS inverter data from mini-ems.com",
-      "es": "Reads Absaar EMS inverter data from mini-ems.com",
-      "pl": "Reads Absaar EMS inverter data from mini-ems.com",
-      "uk": "Reads Absaar EMS inverter data from mini-ems.com",
-      "zh-cn": "Reads Absaar EMS inverter data from mini-ems.com"
+      "ru": "Считывает данные инвертора Absaar EMS с mini-ems.com",
+      "pt": "Lê os dados do inversor Absaar EMS de mini-ems.com",
+      "nl": "Leest gegevens van Absaar EMS-omvormers van mini-ems.com",
+      "fr": "Lit les données des onduleurs Absaar EMS depuis mini-ems.com",
+      "it": "Legge i dati dell'inverter Absaar EMS da mini-ems.com",
+      "es": "Lee los datos del inversor Absaar EMS desde mini-ems.com",
+      "pl": "Odczytuje dane falownika Absaar EMS z mini-ems.com",
+      "uk": "Зчитує дані інвертора Absaar EMS з mini-ems.com",
+      "zh-cn": "从 mini-ems.com 读取 Absaar EMS 逆变器数据"
     },
     "authors": [
       "TheBam1990"
