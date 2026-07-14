@@ -159,6 +159,8 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 Older entries are archived in [CHANGELOG_OLD.md](CHANGELOG_OLD.md).
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 MIT License
