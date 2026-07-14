@@ -2,7 +2,7 @@
 
 ioBroker adapter for Absaar EMS inverters. The adapter reads inverter and station data from the Absaar EMS cloud API used by the Absaar EMS app.
 
-Product and manufacturer information is available on the [official Absaar Solar website](https://absaarsolar.lu/de/startseite/).
+Product and manufacturer information is available on the [official AdvanSol Power website](https://www.advansol-power.com/).
 
 The adapter does not contain private credentials, private host names, or user-specific data. Credentials are stored in protected and encrypted ioBroker native configuration fields.
 
