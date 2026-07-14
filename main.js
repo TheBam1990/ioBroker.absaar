@@ -36,23 +36,23 @@ const STATION_DEFINITIONS = [
     "Daily Power Generation",
     "number",
     "kWh",
-    "value.energy",
+    "value.energy.produced",
   ],
   [
     "monthlyElectricityGeneration",
     "Monthly Electricity Generation",
     "number",
     "kWh",
-    "value.energy",
+    "value.energy.produced",
   ],
   [
     "totalPowerGeneration",
     "Total Power Generation",
     "number",
     "kWh",
-    "value.energy",
+    "value.energy.produced",
   ],
-  ["currentPower", "Current Power", "number", "W", "value.power"],
+  ["currentPower", "Current Power", "number", "W", "value.power.produced"],
   ["incomeOfTheDay", "Income Of The Day", "number", "", "value"],
   ["currentMonthsIncome", "Current Month Income", "number", "", "value"],
   ["cumulativeIncome", "Cumulative Income", "number", "", "value"],
@@ -72,7 +72,7 @@ const COLLECTOR_DEFINITIONS = [
   ["onlineStatus", "Online Status", "string", "", "text"],
   ["networkStatus", "Network Status", "number", "", "value"],
   ["inPower", "Input Power", "number", "W", "value.power"],
-  ["ipAddress", "IP Address", "string", "", "text"],
+  ["ipAddress", "IP Address", "string", "", "info.ip"],
   ["onlineTime", "Online Time", "string", "", "date"],
   ["exhibitionTime", "Exhibition Time", "string", "", "date"],
   ["collectorType", "Collector Type", "string", "", "text"],
@@ -103,7 +103,10 @@ class AbsaarAdapter extends utils.Adapter {
       return;
     }
     await this.poll();
-    const interval = Math.max(30, Number(this.config.pollInterval || 120));
+    const configuredInterval = Number(this.config.pollInterval);
+    const interval = Number.isFinite(configuredInterval)
+      ? Math.min(86400, Math.max(30, configuredInterval))
+      : 120;
     this.pollTimer = this.setInterval(() => void this.poll(), interval * 1000);
   }
 
@@ -299,7 +302,6 @@ class AbsaarAdapter extends utils.Adapter {
         ...headers,
         "Content-Length": Buffer.byteLength(body),
       },
-      rejectUnauthorized: false,
       timeout: 15000,
     };
     if (json) {
@@ -344,10 +346,13 @@ class AbsaarAdapter extends utils.Adapter {
     if (this.config.writeRawJson) {
       await this.setStateAsync("rawJson", JSON.stringify(data), true);
     }
-    for (const station of data.stations || []) {
+    const stations = data.stations || [];
+    if (stations.length > 0) {
+      await this.ensureChannel("stations", "Stations");
+    }
+    for (const station of stations) {
       const stationId = this.safeId(station.power_id);
       const stationBase = `stations.${stationId}`;
-      await this.ensureChannel("stations", "Stations");
       await this.ensureChannel(
         stationBase,
         station.power_name || station.power_id,
