@@ -163,4 +163,4 @@ Older entries are archived in [CHANGELOG_OLD.md](CHANGELOG_OLD.md).
 
 MIT License
 
-Copyright (c) 2026 TheBam1990
+Copyright (c) 2026 TheBam
